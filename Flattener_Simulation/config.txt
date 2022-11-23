@@ -1,0 +1,52 @@
+#TODO: 
+#todo: fix last-liner
+
+#start
+
+#### GLOBAL VARIABLES ####
+
+#Gen_WorkingDirectory			= "C:/Users/runsv/source/repos/CalTech_Flattener_PY/CalTech_Flattener_PY/"							#0  (string)
+Gen_GraphSizeX					= 14																								#11 (float)
+Gen_GraphSizeY					= 8																									#12 (float)
+Gen_GraphDPI					= 80																								#13 (int)
+Gen_GraphLineMarkerSize			= 0																									#14 (int)
+Gen_GraphInnerScaleX			= 0.7																								#15 (float)
+Gen_GraphLegendPosX				= 1.5																								#16 (float)
+Gen_GraphLegendPosY				= 1.1																								#17 (float)
+Gen_GraphLegendSizeRatio		= 350																								#18 (int)
+Gen_GraphLegendMaxSize			= 15																								#19 (int)
+Gen_GraphLegendTextMaxLength	= 30																								#23 (int)
+Gen_GraphSaveExtension			= ".png"																							#21 (string)
+
+#### PROGRAM 1 VARIABLES ####
+
+Prog1_GaussianSigma				= 8.494																								#1  (float)
+Prog1_GraphViewportX1			= 1200																								#3  (float)
+Prog1_GraphViewportX2			= 2000																								#4  (float)
+Prog1_GraphViewportY1			= -1																								#5  (float)
+Prog1_GraphViewportY2			= 2																									#6  (float)
+Prog1_GraphAccuracy				= 1000																								#7  (int)
+
+																																	#22 (float)
+Prog1_GaussianPhis				= 0		#0																							
+Prog1_GaussianPhis				= 0		#1
+Prog1_GaussianPhis				= 0		#2
+Prog1_GaussianPhis				= 0		#3
+Prog1_GaussianPhis				= 0		#4
+Prog1_GaussianPhis				= 0		#5
+Prog1_GaussianPhis				= 0		#6
+Prog1_GaussianPhis				= 0		#7
+Prog1_GaussianPhis				= 0		#8
+Prog1_GaussianPhis				= 0		#9
+Prog1_GaussianPhis				= 0		#10
+Prog1_GaussianPhis				= 0		#11
+Prog1_GaussianPhis				= 0		#12
+Prog1_GaussianPhis				= 0		#13
+Prog1_GaussianPhis				= 0		#14
+Prog1_GaussianPhis				= 0		#15
+Prog1_GaussianPhis				= 0		#16
+Prog1_GaussianPhis				= 0		#17
+Prog1_GaussianPhis				= 0		#18
+Prog1_GaussianPhis				= 0		#19
+
+#end

@@ -1,0 +1,117 @@
+#TODO: fix peak algorithm, fix star filenames
+#todo: fix last-liner
+
+#start
+
+#### GLOBAL VARIABLES ####
+
+#Gen_WorkingDirectory			= "C:/Users/runsv/source/repos/CalTech_Flattener_PY/CalTech_Flattener_PY/"							#0  (string)
+Gen_GraphSizeX					= 14																								#11 (float)
+Gen_GraphSizeY					= 8																									#12 (float)
+Gen_GraphDPI					= 80																								#13 (int)
+Gen_GraphLineMarkerSize			= 0																									#14 (int)
+Gen_GraphInnerScaleX			= 0.7																								#15 (float)
+Gen_GraphLegendPosX				= 1.5																								#16 (float)
+Gen_GraphLegendPosY				= 1.1																								#17 (float)
+Gen_GraphLegendSizeRatio		= 350																								#18 (int)
+Gen_GraphLegendMaxSize			= 15																								#19 (int)
+Gen_GraphLegendTextMaxLength	= 30																								#23 (int)
+Gen_GraphSaveExtension			= ".png"																							#21 (string)
+
+#### PROGRAM 2 VARIABLES ####
+
+Prog2_DataDirectory				= "C:/Users/SVARUN/Downloads/data/"																	#8  (string)
+#Prog2_GraphViewportX1			= 1400																								#9  (float)
+#Prog2_GraphViewportX2			= 1450																								#10 (float)
+#Prog2_GraphViewportY1			= -2																								#24 (float)
+#Prog2_GraphViewportY2			= 3																									#25 (float)
+
+#Prog2_GraphViewportX1			= 1400																								#9  (float)
+#Prog2_GraphViewportX2			= 1450																								#10 (float)
+#Prog2_GraphViewportY1			= -20																								#24 (float)
+#Prog2_GraphViewportY2			= 10																								#25 (float)
+
+Prog2_GraphViewportX1			= 1410																								#9  (float)
+Prog2_GraphViewportX2			= 1790																								#10 (float)
+Prog2_GraphViewportY1			= -8																								#24 (float)
+Prog2_GraphViewportY2			= 8																								#25 (float)
+
+Prog2_GaussianSigma				= 8.494																								#1  (float)
+
+																																	#22 (float)
+Prog2_GaussianPhis				= 0		#0																							
+Prog2_GaussianPhis				= 0		#1
+Prog2_GaussianPhis				= 0		#2
+Prog2_GaussianPhis				= 0		#3
+Prog2_GaussianPhis				= 0		#4
+Prog2_GaussianPhis				= 0		#5
+Prog2_GaussianPhis				= 0		#6
+Prog2_GaussianPhis				= 0		#7
+Prog2_GaussianPhis				= 0		#8
+Prog2_GaussianPhis				= 0		#9
+Prog2_GaussianPhis				= 0		#10
+Prog2_GaussianPhis				= 0		#11
+Prog2_GaussianPhis				= 0		#12
+Prog2_GaussianPhis				= 0		#13
+Prog2_GaussianPhis				= 0		#14
+Prog2_GaussianPhis				= 0		#15
+Prog2_GaussianPhis				= 0		#16
+Prog2_GaussianPhis				= 0		#17
+Prog2_GaussianPhis				= 0		#18
+Prog2_GaussianPhis				= 0		#19
+
+																																						#20 (string)
+#Prog2_GraphData = "Base.txt|00//"		Prog2_GraphData = "Ch_114_V_00_A_50.txt|00//"	Prog2_GraphData = "Base.txt<->Ch_114_V_00_A_50.txt|00:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|01//"		Prog2_GraphData = "Ch_114_V_01_A_50.txt|01//"	Prog2_GraphData = "Base.txt<->Ch_114_V_01_A_50.txt|01:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|02//"		Prog2_GraphData = "Ch_114_V_02_A_50.txt|02//"	Prog2_GraphData = "Base.txt<->Ch_114_V_02_A_50.txt|02:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|03//"		Prog2_GraphData = "Ch_114_V_03_A_50.txt|03//"	Prog2_GraphData = "Base.txt<->Ch_114_V_03_A_50.txt|03:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|04//"		Prog2_GraphData = "Ch_114_V_04_A_50.txt|04//"	Prog2_GraphData = "Base.txt<->Ch_114_V_04_A_50.txt|04:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|05//"		Prog2_GraphData = "Ch_114_V_05_A_50.txt|05//"	Prog2_GraphData = "Base.txt<->Ch_114_V_05_A_50.txt|05:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|06//"		Prog2_GraphData = "Ch_114_V_06_A_50.txt|06//"	Prog2_GraphData = "Base.txt<->Ch_114_V_06_A_50.txt|06:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|07//"		Prog2_GraphData = "Ch_114_V_07_A_50.txt|07//"	Prog2_GraphData = "Base.txt<->Ch_114_V_07_A_50.txt|07:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|08//"		Prog2_GraphData = "Ch_114_V_08_A_50.txt|08//"	Prog2_GraphData = "Base.txt<->Ch_114_V_08_A_50.txt|08:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|09//"		Prog2_GraphData = "Ch_114_V_09_A_50.txt|09//"	Prog2_GraphData = "Base.txt<->Ch_114_V_09_A_50.txt|09:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|10//"		Prog2_GraphData = "Ch_114_V_10_A_50.txt|10//"	Prog2_GraphData = "Base.txt<->Ch_114_V_10_A_50.txt|10:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|11//"		Prog2_GraphData = "Ch_114_V_11_A_50.txt|11//"	Prog2_GraphData = "Base.txt<->Ch_114_V_11_A_50.txt|11:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|12//"		Prog2_GraphData = "Ch_114_V_12_A_50.txt|12//"	Prog2_GraphData = "Base.txt<->Ch_114_V_12_A_50.txt|12:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|13//"		Prog2_GraphData = "Ch_114_V_13_A_50.txt|13//"	Prog2_GraphData = "Base.txt<->Ch_114_V_13_A_50.txt|13:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|14//"		Prog2_GraphData = "Ch_114_V_14_A_50.txt|14//"	Prog2_GraphData = "Base.txt<->Ch_114_V_14_A_50.txt|14:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|15//"		Prog2_GraphData = "Ch_114_V_15_A_50.txt|15//"	Prog2_GraphData = "Base.txt<->Ch_114_V_15_A_50.txt|15:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|16//"		Prog2_GraphData = "Ch_114_V_16_A_50.txt|16//"	Prog2_GraphData = "Base.txt<->Ch_114_V_16_A_50.txt|16:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|17//"		Prog2_GraphData = "Ch_114_V_17_A_50.txt|17//"	Prog2_GraphData = "Base.txt<->Ch_114_V_17_A_50.txt|17:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|18//"		Prog2_GraphData = "Ch_114_V_18_A_50.txt|18//"	Prog2_GraphData = "Base.txt<->Ch_114_V_18_A_50.txt|18:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|19//"		Prog2_GraphData = "Ch_114_V_19_A_50.txt|19//"	Prog2_GraphData = "Base.txt<->Ch_114_V_19_A_50.txt|19:2(0.01,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|20//"		Prog2_GraphData = "Ch_114_V_20_A_50.txt|20//"	Prog2_GraphData = "Base.txt<->Ch_114_V_20_A_50.txt|20:2(0.01,1,8.494,0,1)?"
+
+#Prog2_GraphData = "Base.txt|00//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|00//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|00"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|00:1(40)?"
+#Prog2_GraphData = "Base.txt|01//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|01//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|01"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|01:0(0.5,5000)?"
+#Prog2_GraphData = "Base.txt|02//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|02//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|02"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|02:2(0.1,1,0.3,0,1)?"
+#Prog2_GraphData = "Base.txt|03//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|03//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|03"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|03:2(0.1,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|04//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|04//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|04"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|04:2(0.5,1,8.494,0,1)?"
+#Prog2_GraphData = "Base.txt|05//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|05//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|05"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|05:2(0.01,1,8.494,0,1)?"
+
+Prog2_GraphData = "Base.txt|00//"			Prog2_GraphData = "Ch_14_V_00_A_50.txt|00//"		Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|00:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|01//"			Prog2_GraphData = "Ch_14_V_01_A_50.txt|01//"		Prog2_GraphData = "Base.txt<->Ch_14_V_01_A_50.txt|01:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|02//"			Prog2_GraphData = "Ch_14_V_02_A_50.txt|02//"		Prog2_GraphData = "Base.txt<->Ch_14_V_02_A_50.txt|02:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|03//"			Prog2_GraphData = "Ch_14_V_03_A_50.txt|03//"		Prog2_GraphData = "Base.txt<->Ch_14_V_03_A_50.txt|03:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|04//"			Prog2_GraphData = "Ch_14_V_04_A_50.txt|04//"		Prog2_GraphData = "Base.txt<->Ch_14_V_04_A_50.txt|04:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|05//"			Prog2_GraphData = "Ch_14_V_05_A_50.txt|05//"		Prog2_GraphData = "Base.txt<->Ch_14_V_05_A_50.txt|05:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|06//"			Prog2_GraphData = "Ch_14_V_06_A_50.txt|06//"		Prog2_GraphData = "Base.txt<->Ch_14_V_06_A_50.txt|06:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|07//"			Prog2_GraphData = "Ch_14_V_07_A_50.txt|07//"		Prog2_GraphData = "Base.txt<->Ch_14_V_07_A_50.txt|07:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|08//"			Prog2_GraphData = "Ch_14_V_08_A_50.txt|08//"		Prog2_GraphData = "Base.txt<->Ch_14_V_08_A_50.txt|08:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|09//"			Prog2_GraphData = "Ch_14_V_09_A_50.txt|09//"		Prog2_GraphData = "Base.txt<->Ch_14_V_09_A_50.txt|09:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|10//"			Prog2_GraphData = "Ch_14_V_10_A_50.txt|10//"		Prog2_GraphData = "Base.txt<->Ch_14_V_10_A_50.txt|10:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|11//"			Prog2_GraphData = "Ch_14_V_11_A_50.txt|11//"		Prog2_GraphData = "Base.txt<->Ch_14_V_11_A_50.txt|11:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|12//"			Prog2_GraphData = "Ch_14_V_12_A_50.txt|12//"		Prog2_GraphData = "Base.txt<->Ch_14_V_12_A_50.txt|12:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|13//"			Prog2_GraphData = "Ch_14_V_13_A_50.txt|13//"		Prog2_GraphData = "Base.txt<->Ch_14_V_13_A_50.txt|13:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|14//"			Prog2_GraphData = "Ch_14_V_14_A_50.txt|14//"		Prog2_GraphData = "Base.txt<->Ch_14_V_14_A_50.txt|14:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|15//"			Prog2_GraphData = "Ch_14_V_15_A_50.txt|15//"		Prog2_GraphData = "Base.txt<->Ch_14_V_15_A_50.txt|15:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|16//"			Prog2_GraphData = "Ch_14_V_16_A_50.txt|16//"		Prog2_GraphData = "Base.txt<->Ch_14_V_16_A_50.txt|16:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|17//"			Prog2_GraphData = "Ch_14_V_17_A_50.txt|17//"		Prog2_GraphData = "Base.txt<->Ch_14_V_17_A_50.txt|17:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|18//"			Prog2_GraphData = "Ch_14_V_18_A_50.txt|18//"		Prog2_GraphData = "Base.txt<->Ch_14_V_18_A_50.txt|18:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|19//"			Prog2_GraphData = "Ch_14_V_19_A_50.txt|19//"		Prog2_GraphData = "Base.txt<->Ch_14_V_19_A_50.txt|19:2(0.01,1,8.494,0,1)\\"
+Prog2_GraphData = "Base.txt|20//"			Prog2_GraphData = "Ch_14_V_20_A_50.txt|20//"		Prog2_GraphData = "Base.txt<->Ch_14_V_20_A_50.txt|20:2(0.01,1,8.494,0,1)\\"
+
+#Prog2_GraphData = "T_J6.txt|00"		Prog2_GraphData = "COC_HASP2022_DataFile_*.txt|00"
+
+#end

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Data_Analyzer", "Data_Analyzer\Data_Analyzer.pyproj", "{83438EA0-A6BE-4C84-A527-FBC773A4D86A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Integrated_Test_1", "Integrated_Test_1\Integrated_Test_1.pyproj", "{650C77F5-59E3-47CE-BF5F-71C1D068506A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Flattener_Simulation", "Flattener_Simulation\Flattener_Simulation.pyproj", "{5C4A57E6-458B-4214-AF8C-66808A662299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83438EA0-A6BE-4C84-A527-FBC773A4D86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83438EA0-A6BE-4C84-A527-FBC773A4D86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650C77F5-59E3-47CE-BF5F-71C1D068506A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650C77F5-59E3-47CE-BF5F-71C1D068506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4A57E6-458B-4214-AF8C-66808A662299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4A57E6-458B-4214-AF8C-66808A662299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA40BA76-B6CD-47CB-9C2D-13DAC4036F99}
+	EndGlobalSection
+EndGlobal
