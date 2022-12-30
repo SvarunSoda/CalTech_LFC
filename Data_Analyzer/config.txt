@@ -11,11 +11,11 @@ Gen_GraphSizeY					= 8																									#12 (float)
 Gen_GraphDPI					= 80																								#13 (int)
 Gen_GraphLineMarkerSize			= 0																									#14 (int)
 Gen_GraphInnerScaleX			= 0.7																								#15 (float)
-Gen_GraphLegendPosX				= 1.5																								#16 (float)
+Gen_GraphLegendPosX				= 1.57																								#16 (float)
 Gen_GraphLegendPosY				= 1.1																								#17 (float)
 Gen_GraphLegendSizeRatio		= 350																								#18 (int)
 Gen_GraphLegendMaxSize			= 15																								#19 (int)
-Gen_GraphLegendTextMaxLength	= 30																								#23 (int)
+Gen_GraphLegendTextMaxLength	= 25																								#23 (int)
 Gen_GraphSaveExtension			= ".png"																							#21 (string)
 
 #### PROGRAM 2 VARIABLES ####
@@ -33,8 +33,8 @@ Prog2_DataDirectory				= "C:/Users/SVARUN/Downloads/data/"																	#8  (
 
 Prog2_GraphViewportX1			= 1410																								#9  (float)
 Prog2_GraphViewportX2			= 1790																								#10 (float)
-Prog2_GraphViewportY1			= -8																								#24 (float)
-Prog2_GraphViewportY2			= 8																								#25 (float)
+Prog2_GraphViewportY1			= -10																								#24 (float)
+Prog2_GraphViewportY2			= 10																									#25 (float)
 
 Prog2_GaussianSigma				= 8.494																								#1  (float)
 
@@ -61,6 +61,96 @@ Prog2_GaussianPhis				= 0		#18
 Prog2_GaussianPhis				= 0		#19
 
 																																						#20 (string)
+Prog2_GraphData = "Spectrum_10_1.txt|00//"		Prog2_GraphData = "Spectrum_10_0.txt|00//"	Prog2_GraphData = "Spectrum_10_1.txt<->Spectrum_10_0.txt|00:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_2.txt|01//"		Prog2_GraphData = "Spectrum_10_0.txt|01//"	Prog2_GraphData = "Spectrum_10_2.txt<->Spectrum_10_0.txt|01:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_3.txt|02//"		Prog2_GraphData = "Spectrum_10_0.txt|02//"	Prog2_GraphData = "Spectrum_10_3.txt<->Spectrum_10_0.txt|02:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_4.txt|03//"		Prog2_GraphData = "Spectrum_10_0.txt|03//"	Prog2_GraphData = "Spectrum_10_4.txt<->Spectrum_10_0.txt|03:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_5.txt|04//"		Prog2_GraphData = "Spectrum_10_0.txt|04//"	Prog2_GraphData = "Spectrum_10_5.txt<->Spectrum_10_0.txt|04:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_6.txt|05//"		Prog2_GraphData = "Spectrum_10_0.txt|05//"	Prog2_GraphData = "Spectrum_10_6.txt<->Spectrum_10_0.txt|05:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_7.txt|06//"		Prog2_GraphData = "Spectrum_10_0.txt|06//"	Prog2_GraphData = "Spectrum_10_7.txt<->Spectrum_10_0.txt|06:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_8.txt|07//"		Prog2_GraphData = "Spectrum_10_0.txt|07//"	Prog2_GraphData = "Spectrum_10_8.txt<->Spectrum_10_0.txt|07:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_9.txt|08//"		Prog2_GraphData = "Spectrum_10_0.txt|08//"	Prog2_GraphData = "Spectrum_10_9.txt<->Spectrum_10_0.txt|08:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_10.txt|09//"		Prog2_GraphData = "Spectrum_10_0.txt|09//"	Prog2_GraphData = "Spectrum_10_10.txt<->Spectrum_10_0.txt|09:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_11.txt|10//"		Prog2_GraphData = "Spectrum_10_0.txt|10//"	Prog2_GraphData = "Spectrum_10_11.txt<->Spectrum_10_0.txt|10:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_12.txt|11//"		Prog2_GraphData = "Spectrum_10_0.txt|11//"	Prog2_GraphData = "Spectrum_10_12.txt<->Spectrum_10_0.txt|11:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_13.txt|12//"		Prog2_GraphData = "Spectrum_10_0.txt|12//"	Prog2_GraphData = "Spectrum_10_13.txt<->Spectrum_10_0.txt|12:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_14.txt|13//"		Prog2_GraphData = "Spectrum_10_0.txt|13//"	Prog2_GraphData = "Spectrum_10_14.txt<->Spectrum_10_0.txt|13:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_15.txt|14//"		Prog2_GraphData = "Spectrum_10_0.txt|14//"	Prog2_GraphData = "Spectrum_10_15.txt<->Spectrum_10_0.txt|14:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_16.txt|15//"		Prog2_GraphData = "Spectrum_10_0.txt|15//"	Prog2_GraphData = "Spectrum_10_16.txt<->Spectrum_10_0.txt|15:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_10_17.txt|16//"		Prog2_GraphData = "Spectrum_10_0.txt|16//"	Prog2_GraphData = "Spectrum_10_17.txt<->Spectrum_10_0.txt|16:2(0.01,1,8.494,0,1)?"
+
+Prog2_GraphData = "Spectrum_13_1.txt|20//"		Prog2_GraphData = "Spectrum_13_0.txt|20//"	Prog2_GraphData = "Spectrum_13_1.txt<->Spectrum_13_0.txt|20:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_2.txt|21//"		Prog2_GraphData = "Spectrum_13_0.txt|21//"	Prog2_GraphData = "Spectrum_13_2.txt<->Spectrum_13_0.txt|21:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_3.txt|22//"		Prog2_GraphData = "Spectrum_13_0.txt|22//"	Prog2_GraphData = "Spectrum_13_3.txt<->Spectrum_13_0.txt|22:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_4.txt|23//"		Prog2_GraphData = "Spectrum_13_0.txt|23//"	Prog2_GraphData = "Spectrum_13_4.txt<->Spectrum_13_0.txt|23:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_5.txt|24//"		Prog2_GraphData = "Spectrum_13_0.txt|24//"	Prog2_GraphData = "Spectrum_13_5.txt<->Spectrum_13_0.txt|24:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_6.txt|25//"		Prog2_GraphData = "Spectrum_13_0.txt|25//"	Prog2_GraphData = "Spectrum_13_6.txt<->Spectrum_13_0.txt|25:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_7.txt|26//"		Prog2_GraphData = "Spectrum_13_0.txt|26//"	Prog2_GraphData = "Spectrum_13_7.txt<->Spectrum_13_0.txt|26:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_8.txt|27//"		Prog2_GraphData = "Spectrum_13_0.txt|27//"	Prog2_GraphData = "Spectrum_13_8.txt<->Spectrum_13_0.txt|27:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_9.txt|28//"		Prog2_GraphData = "Spectrum_13_0.txt|28//"	Prog2_GraphData = "Spectrum_13_9.txt<->Spectrum_13_0.txt|28:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_10.txt|29//"		Prog2_GraphData = "Spectrum_13_0.txt|29//"	Prog2_GraphData = "Spectrum_13_10.txt<->Spectrum_13_0.txt|29:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_11.txt|30//"		Prog2_GraphData = "Spectrum_13_0.txt|30//"	Prog2_GraphData = "Spectrum_13_11.txt<->Spectrum_13_0.txt|30:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_12.txt|31//"		Prog2_GraphData = "Spectrum_13_0.txt|31//"	Prog2_GraphData = "Spectrum_13_12.txt<->Spectrum_13_0.txt|31:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_13.txt|32//"		Prog2_GraphData = "Spectrum_13_0.txt|32//"	Prog2_GraphData = "Spectrum_13_13.txt<->Spectrum_13_0.txt|32:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_14.txt|33//"		Prog2_GraphData = "Spectrum_13_0.txt|33//"	Prog2_GraphData = "Spectrum_13_14.txt<->Spectrum_13_0.txt|33:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_15.txt|34//"		Prog2_GraphData = "Spectrum_13_0.txt|34//"	Prog2_GraphData = "Spectrum_13_15.txt<->Spectrum_13_0.txt|34:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_16.txt|35//"		Prog2_GraphData = "Spectrum_13_0.txt|35//"	Prog2_GraphData = "Spectrum_13_16.txt<->Spectrum_13_0.txt|35:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_13_17.txt|36//"		Prog2_GraphData = "Spectrum_13_0.txt|36//"	Prog2_GraphData = "Spectrum_13_17.txt<->Spectrum_13_0.txt|36:2(0.01,1,8.494,0,1)?"
+
+Prog2_GraphData = "Spectrum_27_1.txt|40//"		Prog2_GraphData = "Spectrum_27_0.txt|40//"	Prog2_GraphData = "Spectrum_27_1.txt<->Spectrum_27_0.txt|40:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_2.txt|41//"		Prog2_GraphData = "Spectrum_27_0.txt|41//"	Prog2_GraphData = "Spectrum_27_2.txt<->Spectrum_27_0.txt|41:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_3.txt|42//"		Prog2_GraphData = "Spectrum_27_0.txt|42//"	Prog2_GraphData = "Spectrum_27_3.txt<->Spectrum_27_0.txt|42:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_4.txt|43//"		Prog2_GraphData = "Spectrum_27_0.txt|43//"	Prog2_GraphData = "Spectrum_27_4.txt<->Spectrum_27_0.txt|43:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_5.txt|44//"		Prog2_GraphData = "Spectrum_27_0.txt|44//"	Prog2_GraphData = "Spectrum_27_5.txt<->Spectrum_27_0.txt|44:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_6.txt|45//"		Prog2_GraphData = "Spectrum_27_0.txt|45//"	Prog2_GraphData = "Spectrum_27_6.txt<->Spectrum_27_0.txt|45:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_7.txt|46//"		Prog2_GraphData = "Spectrum_27_0.txt|46//"	Prog2_GraphData = "Spectrum_27_7.txt<->Spectrum_27_0.txt|46:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_8.txt|47//"		Prog2_GraphData = "Spectrum_27_0.txt|47//"	Prog2_GraphData = "Spectrum_27_8.txt<->Spectrum_27_0.txt|47:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_9.txt|48//"		Prog2_GraphData = "Spectrum_27_0.txt|48//"	Prog2_GraphData = "Spectrum_27_9.txt<->Spectrum_27_0.txt|48:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_10.txt|49//"		Prog2_GraphData = "Spectrum_27_0.txt|49//"	Prog2_GraphData = "Spectrum_27_10.txt<->Spectrum_27_0.txt|49:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_11.txt|50//"		Prog2_GraphData = "Spectrum_27_0.txt|50//"	Prog2_GraphData = "Spectrum_27_11.txt<->Spectrum_27_0.txt|50:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_12.txt|51//"		Prog2_GraphData = "Spectrum_27_0.txt|51//"	Prog2_GraphData = "Spectrum_27_12.txt<->Spectrum_27_0.txt|51:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_13.txt|52//"		Prog2_GraphData = "Spectrum_27_0.txt|52//"	Prog2_GraphData = "Spectrum_27_13.txt<->Spectrum_27_0.txt|52:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_14.txt|53//"		Prog2_GraphData = "Spectrum_27_0.txt|53//"	Prog2_GraphData = "Spectrum_27_14.txt<->Spectrum_27_0.txt|53:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_15.txt|54//"		Prog2_GraphData = "Spectrum_27_0.txt|54//"	Prog2_GraphData = "Spectrum_27_15.txt<->Spectrum_27_0.txt|54:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_16.txt|55//"		Prog2_GraphData = "Spectrum_27_0.txt|55//"	Prog2_GraphData = "Spectrum_27_16.txt<->Spectrum_27_0.txt|55:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_27_17.txt|56//"		Prog2_GraphData = "Spectrum_27_0.txt|56//"	Prog2_GraphData = "Spectrum_27_17.txt<->Spectrum_27_0.txt|56:2(0.01,1,8.494,0,1)?"
+
+Prog2_GraphData = "Spectrum_28_1.txt|60//"		Prog2_GraphData = "Spectrum_28_0.txt|60//"	Prog2_GraphData = "Spectrum_28_1.txt<->Spectrum_28_0.txt|60:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_2.txt|61//"		Prog2_GraphData = "Spectrum_28_0.txt|61//"	Prog2_GraphData = "Spectrum_28_2.txt<->Spectrum_28_0.txt|61:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_3.txt|62//"		Prog2_GraphData = "Spectrum_28_0.txt|62//"	Prog2_GraphData = "Spectrum_28_3.txt<->Spectrum_28_0.txt|62:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_4.txt|63//"		Prog2_GraphData = "Spectrum_28_0.txt|63//"	Prog2_GraphData = "Spectrum_28_4.txt<->Spectrum_28_0.txt|63:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_5.txt|64//"		Prog2_GraphData = "Spectrum_28_0.txt|64//"	Prog2_GraphData = "Spectrum_28_5.txt<->Spectrum_28_0.txt|64:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_6.txt|65//"		Prog2_GraphData = "Spectrum_28_0.txt|65//"	Prog2_GraphData = "Spectrum_28_6.txt<->Spectrum_28_0.txt|65:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_7.txt|66//"		Prog2_GraphData = "Spectrum_28_0.txt|66//"	Prog2_GraphData = "Spectrum_28_7.txt<->Spectrum_28_0.txt|66:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_8.txt|67//"		Prog2_GraphData = "Spectrum_28_0.txt|67//"	Prog2_GraphData = "Spectrum_28_8.txt<->Spectrum_28_0.txt|67:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_9.txt|68//"		Prog2_GraphData = "Spectrum_28_0.txt|68//"	Prog2_GraphData = "Spectrum_28_9.txt<->Spectrum_28_0.txt|68:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_10.txt|69//"		Prog2_GraphData = "Spectrum_28_0.txt|69//"	Prog2_GraphData = "Spectrum_28_10.txt<->Spectrum_28_0.txt|69:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_11.txt|70//"		Prog2_GraphData = "Spectrum_28_0.txt|70//"	Prog2_GraphData = "Spectrum_28_11.txt<->Spectrum_28_0.txt|70:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_12.txt|71//"		Prog2_GraphData = "Spectrum_28_0.txt|71//"	Prog2_GraphData = "Spectrum_28_12.txt<->Spectrum_28_0.txt|71:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_13.txt|72//"		Prog2_GraphData = "Spectrum_28_0.txt|72//"	Prog2_GraphData = "Spectrum_28_13.txt<->Spectrum_28_0.txt|72:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_14.txt|73//"		Prog2_GraphData = "Spectrum_28_0.txt|73//"	Prog2_GraphData = "Spectrum_28_14.txt<->Spectrum_28_0.txt|73:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_15.txt|74//"		Prog2_GraphData = "Spectrum_28_0.txt|74//"	Prog2_GraphData = "Spectrum_28_15.txt<->Spectrum_28_0.txt|74:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_16.txt|75//"		Prog2_GraphData = "Spectrum_28_0.txt|75//"	Prog2_GraphData = "Spectrum_28_16.txt<->Spectrum_28_0.txt|75:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_28_17.txt|76//"		Prog2_GraphData = "Spectrum_28_0.txt|76//"	Prog2_GraphData = "Spectrum_28_17.txt<->Spectrum_28_0.txt|76:2(0.01,1,8.494,0,1)?"
+
+Prog2_GraphData = "Spectrum_29_1.txt|80//"		Prog2_GraphData = "Spectrum_29_0.txt|80//"	Prog2_GraphData = "Spectrum_29_1.txt<->Spectrum_29_0.txt|80:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_2.txt|81//"		Prog2_GraphData = "Spectrum_29_0.txt|81//"	Prog2_GraphData = "Spectrum_29_2.txt<->Spectrum_29_0.txt|81:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_3.txt|82//"		Prog2_GraphData = "Spectrum_29_0.txt|82//"	Prog2_GraphData = "Spectrum_29_3.txt<->Spectrum_29_0.txt|82:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_4.txt|83//"		Prog2_GraphData = "Spectrum_29_0.txt|83//"	Prog2_GraphData = "Spectrum_29_4.txt<->Spectrum_29_0.txt|83:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_5.txt|84//"		Prog2_GraphData = "Spectrum_29_0.txt|84//"	Prog2_GraphData = "Spectrum_29_5.txt<->Spectrum_29_0.txt|84:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_6.txt|85//"		Prog2_GraphData = "Spectrum_29_0.txt|85//"	Prog2_GraphData = "Spectrum_29_6.txt<->Spectrum_29_0.txt|85:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_7.txt|86//"		Prog2_GraphData = "Spectrum_29_0.txt|86//"	Prog2_GraphData = "Spectrum_29_7.txt<->Spectrum_29_0.txt|86:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_8.txt|87//"		Prog2_GraphData = "Spectrum_29_0.txt|87//"	Prog2_GraphData = "Spectrum_29_8.txt<->Spectrum_29_0.txt|87:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_9.txt|88//"		Prog2_GraphData = "Spectrum_29_0.txt|88//"	Prog2_GraphData = "Spectrum_29_9.txt<->Spectrum_29_0.txt|88:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_10.txt|89//"		Prog2_GraphData = "Spectrum_29_0.txt|89//"	Prog2_GraphData = "Spectrum_29_10.txt<->Spectrum_29_0.txt|89:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_11.txt|90//"		Prog2_GraphData = "Spectrum_29_0.txt|90//"	Prog2_GraphData = "Spectrum_29_11.txt<->Spectrum_29_0.txt|90:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_12.txt|91//"		Prog2_GraphData = "Spectrum_29_0.txt|91//"	Prog2_GraphData = "Spectrum_29_12.txt<->Spectrum_29_0.txt|91:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_13.txt|92//"		Prog2_GraphData = "Spectrum_29_0.txt|92//"	Prog2_GraphData = "Spectrum_29_13.txt<->Spectrum_29_0.txt|92:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_14.txt|93//"		Prog2_GraphData = "Spectrum_29_0.txt|93//"	Prog2_GraphData = "Spectrum_29_14.txt<->Spectrum_29_0.txt|93:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_15.txt|94//"		Prog2_GraphData = "Spectrum_29_0.txt|94//"	Prog2_GraphData = "Spectrum_29_15.txt<->Spectrum_29_0.txt|94:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_16.txt|95//"		Prog2_GraphData = "Spectrum_29_0.txt|95//"	Prog2_GraphData = "Spectrum_29_16.txt<->Spectrum_29_0.txt|95:2(0.01,1,8.494,0,1)?"
+Prog2_GraphData = "Spectrum_29_17.txt|96//"		Prog2_GraphData = "Spectrum_29_0.txt|96//"	Prog2_GraphData = "Spectrum_29_17.txt<->Spectrum_29_0.txt|96:2(0.01,1,8.494,0,1)?"
+
 #Prog2_GraphData = "Base.txt|00//"		Prog2_GraphData = "Ch_114_V_00_A_50.txt|00//"	Prog2_GraphData = "Base.txt<->Ch_114_V_00_A_50.txt|00:2(0.01,1,8.494,0,1)?"
 #Prog2_GraphData = "Base.txt|01//"		Prog2_GraphData = "Ch_114_V_01_A_50.txt|01//"	Prog2_GraphData = "Base.txt<->Ch_114_V_01_A_50.txt|01:2(0.01,1,8.494,0,1)?"
 #Prog2_GraphData = "Base.txt|02//"		Prog2_GraphData = "Ch_114_V_02_A_50.txt|02//"	Prog2_GraphData = "Base.txt<->Ch_114_V_02_A_50.txt|02:2(0.01,1,8.494,0,1)?"
@@ -90,27 +180,27 @@ Prog2_GaussianPhis				= 0		#19
 #Prog2_GraphData = "Base.txt|04//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|04//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|04"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|04:2(0.5,1,8.494,0,1)?"
 #Prog2_GraphData = "Base.txt|05//"		Prog2_GraphData = "Ch_14_V_00_A_50.txt|05//"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|05"	Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|05:2(0.01,1,8.494,0,1)?"
 
-Prog2_GraphData = "Base.txt|00//"			Prog2_GraphData = "Ch_14_V_00_A_50.txt|00//"		Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|00:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|01//"			Prog2_GraphData = "Ch_14_V_01_A_50.txt|01//"		Prog2_GraphData = "Base.txt<->Ch_14_V_01_A_50.txt|01:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|02//"			Prog2_GraphData = "Ch_14_V_02_A_50.txt|02//"		Prog2_GraphData = "Base.txt<->Ch_14_V_02_A_50.txt|02:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|03//"			Prog2_GraphData = "Ch_14_V_03_A_50.txt|03//"		Prog2_GraphData = "Base.txt<->Ch_14_V_03_A_50.txt|03:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|04//"			Prog2_GraphData = "Ch_14_V_04_A_50.txt|04//"		Prog2_GraphData = "Base.txt<->Ch_14_V_04_A_50.txt|04:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|05//"			Prog2_GraphData = "Ch_14_V_05_A_50.txt|05//"		Prog2_GraphData = "Base.txt<->Ch_14_V_05_A_50.txt|05:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|06//"			Prog2_GraphData = "Ch_14_V_06_A_50.txt|06//"		Prog2_GraphData = "Base.txt<->Ch_14_V_06_A_50.txt|06:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|07//"			Prog2_GraphData = "Ch_14_V_07_A_50.txt|07//"		Prog2_GraphData = "Base.txt<->Ch_14_V_07_A_50.txt|07:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|08//"			Prog2_GraphData = "Ch_14_V_08_A_50.txt|08//"		Prog2_GraphData = "Base.txt<->Ch_14_V_08_A_50.txt|08:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|09//"			Prog2_GraphData = "Ch_14_V_09_A_50.txt|09//"		Prog2_GraphData = "Base.txt<->Ch_14_V_09_A_50.txt|09:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|10//"			Prog2_GraphData = "Ch_14_V_10_A_50.txt|10//"		Prog2_GraphData = "Base.txt<->Ch_14_V_10_A_50.txt|10:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|11//"			Prog2_GraphData = "Ch_14_V_11_A_50.txt|11//"		Prog2_GraphData = "Base.txt<->Ch_14_V_11_A_50.txt|11:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|12//"			Prog2_GraphData = "Ch_14_V_12_A_50.txt|12//"		Prog2_GraphData = "Base.txt<->Ch_14_V_12_A_50.txt|12:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|13//"			Prog2_GraphData = "Ch_14_V_13_A_50.txt|13//"		Prog2_GraphData = "Base.txt<->Ch_14_V_13_A_50.txt|13:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|14//"			Prog2_GraphData = "Ch_14_V_14_A_50.txt|14//"		Prog2_GraphData = "Base.txt<->Ch_14_V_14_A_50.txt|14:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|15//"			Prog2_GraphData = "Ch_14_V_15_A_50.txt|15//"		Prog2_GraphData = "Base.txt<->Ch_14_V_15_A_50.txt|15:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|16//"			Prog2_GraphData = "Ch_14_V_16_A_50.txt|16//"		Prog2_GraphData = "Base.txt<->Ch_14_V_16_A_50.txt|16:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|17//"			Prog2_GraphData = "Ch_14_V_17_A_50.txt|17//"		Prog2_GraphData = "Base.txt<->Ch_14_V_17_A_50.txt|17:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|18//"			Prog2_GraphData = "Ch_14_V_18_A_50.txt|18//"		Prog2_GraphData = "Base.txt<->Ch_14_V_18_A_50.txt|18:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|19//"			Prog2_GraphData = "Ch_14_V_19_A_50.txt|19//"		Prog2_GraphData = "Base.txt<->Ch_14_V_19_A_50.txt|19:2(0.01,1,8.494,0,1)\\"
-Prog2_GraphData = "Base.txt|20//"			Prog2_GraphData = "Ch_14_V_20_A_50.txt|20//"		Prog2_GraphData = "Base.txt<->Ch_14_V_20_A_50.txt|20:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|00//"			Prog2_GraphData = "Ch_14_V_00_A_50.txt|00//"		Prog2_GraphData = "Base.txt<->Ch_14_V_00_A_50.txt|00:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|01//"			Prog2_GraphData = "Ch_14_V_01_A_50.txt|01//"		Prog2_GraphData = "Base.txt<->Ch_14_V_01_A_50.txt|01:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|02//"			Prog2_GraphData = "Ch_14_V_02_A_50.txt|02//"		Prog2_GraphData = "Base.txt<->Ch_14_V_02_A_50.txt|02:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|03//"			Prog2_GraphData = "Ch_14_V_03_A_50.txt|03//"		Prog2_GraphData = "Base.txt<->Ch_14_V_03_A_50.txt|03:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|04//"			Prog2_GraphData = "Ch_14_V_04_A_50.txt|04//"		Prog2_GraphData = "Base.txt<->Ch_14_V_04_A_50.txt|04:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|05//"			Prog2_GraphData = "Ch_14_V_05_A_50.txt|05//"		Prog2_GraphData = "Base.txt<->Ch_14_V_05_A_50.txt|05:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|06//"			Prog2_GraphData = "Ch_14_V_06_A_50.txt|06//"		Prog2_GraphData = "Base.txt<->Ch_14_V_06_A_50.txt|06:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|07//"			Prog2_GraphData = "Ch_14_V_07_A_50.txt|07//"		Prog2_GraphData = "Base.txt<->Ch_14_V_07_A_50.txt|07:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|08//"			Prog2_GraphData = "Ch_14_V_08_A_50.txt|08//"		Prog2_GraphData = "Base.txt<->Ch_14_V_08_A_50.txt|08:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|09//"			Prog2_GraphData = "Ch_14_V_09_A_50.txt|09//"		Prog2_GraphData = "Base.txt<->Ch_14_V_09_A_50.txt|09:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|10//"			Prog2_GraphData = "Ch_14_V_10_A_50.txt|10//"		Prog2_GraphData = "Base.txt<->Ch_14_V_10_A_50.txt|10:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|11//"			Prog2_GraphData = "Ch_14_V_11_A_50.txt|11//"		Prog2_GraphData = "Base.txt<->Ch_14_V_11_A_50.txt|11:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|12//"			Prog2_GraphData = "Ch_14_V_12_A_50.txt|12//"		Prog2_GraphData = "Base.txt<->Ch_14_V_12_A_50.txt|12:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|13//"			Prog2_GraphData = "Ch_14_V_13_A_50.txt|13//"		Prog2_GraphData = "Base.txt<->Ch_14_V_13_A_50.txt|13:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|14//"			Prog2_GraphData = "Ch_14_V_14_A_50.txt|14//"		Prog2_GraphData = "Base.txt<->Ch_14_V_14_A_50.txt|14:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|15//"			Prog2_GraphData = "Ch_14_V_15_A_50.txt|15//"		Prog2_GraphData = "Base.txt<->Ch_14_V_15_A_50.txt|15:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|16//"			Prog2_GraphData = "Ch_14_V_16_A_50.txt|16//"		Prog2_GraphData = "Base.txt<->Ch_14_V_16_A_50.txt|16:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|17//"			Prog2_GraphData = "Ch_14_V_17_A_50.txt|17//"		Prog2_GraphData = "Base.txt<->Ch_14_V_17_A_50.txt|17:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|18//"			Prog2_GraphData = "Ch_14_V_18_A_50.txt|18//"		Prog2_GraphData = "Base.txt<->Ch_14_V_18_A_50.txt|18:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|19//"			Prog2_GraphData = "Ch_14_V_19_A_50.txt|19//"		Prog2_GraphData = "Base.txt<->Ch_14_V_19_A_50.txt|19:2(0.01,1,8.494,0,1)\\"
+#Prog2_GraphData = "Base.txt|20//"			Prog2_GraphData = "Ch_14_V_20_A_50.txt|20//"		Prog2_GraphData = "Base.txt<->Ch_14_V_20_A_50.txt|20:2(0.01,1,8.494,0,1)\\"
 
 #Prog2_GraphData = "T_J6.txt|00"		Prog2_GraphData = "COC_HASP2022_DataFile_*.txt|00"
 

@@ -137,9 +137,6 @@ def Main_ProgramDataAnalyzer(): #2
                                         [Prog2_GraphViewport[0][0], Prog2_GraphViewport[0][1]], 
                                         newCurrFlatteningData)
 
-        xViews = [utils_fx.Utils_MinOfLists(xData), utils_fx.Utils_MaxOfLists(xData)]
-        yViews = [(utils_fx.Utils_MinOfLists(yData) - 10), (utils_fx.Utils_MaxOfLists(yData) + 10)]
-
         for j in range(len(currDataPeakFinds)):
         #{
             if (currDataPeakFinds[j] == 1):
@@ -186,6 +183,18 @@ def Main_ProgramDataAnalyzer(): #2
         if (len(dataLabels) != len(xData)):
             raise ValueError("The size of the data labels and the amount of data aren't equal!")
 
+        xViews = [utils_fx.Utils_MinOfLists(xData), utils_fx.Utils_MaxOfLists(xData)]
+        yViews = [(utils_fx.Utils_MinOfLists(yData) - 10), (utils_fx.Utils_MaxOfLists(yData) + 10)]
+
+        if (Prog2_GraphViewport[0][0] != None):
+            xViews[0] = Prog2_GraphViewport[0][0]
+        if (Prog2_GraphViewport[0][1] != None):
+            xViews[1] = Prog2_GraphViewport[0][1]
+        if (Prog2_GraphViewport[1][0] != None):
+            yViews[0] = Prog2_GraphViewport[1][0]
+        if (Prog2_GraphViewport[1][1] != None):
+            yViews[1] = Prog2_GraphViewport[1][1]
+
         saveDirectory = ""
 
         if (saveGraphs == True):
@@ -197,15 +206,6 @@ def Main_ProgramDataAnalyzer(): #2
             else:
                 saveDirectory += dataLabels[namingIdx]
         #}
-
-        if (Prog2_GraphViewport[0][0] != None):
-            xViews[0] = Prog2_GraphViewport[0][0]
-        if (Prog2_GraphViewport[0][1] != None):
-            xViews[1] = Prog2_GraphViewport[0][1]
-        if (Prog2_GraphViewport[1][0] != None):
-            yViews[0] = Prog2_GraphViewport[1][0]
-        if (Prog2_GraphViewport[1][1] != None):
-            yViews[1] = Prog2_GraphViewport[1][1]
 
         graphing_fx.Graphing_GraphDataPoints(xData, yData, 
                                             xViews, 

@@ -5,6 +5,8 @@ import main_fx
 import math_fx
 import data_fx
 import utils_fx
+import numpy as np
+#from decimal import *
 
 def Data_IdentifyHighPeak(peakFindDataX, peakFindDataY, dataEdges, intersectionTolerance, fileName, reportSavePath):
 #{
@@ -776,11 +778,16 @@ def Data_LoadDataFromFile(filePath, data):
 
     main_fx.Main_StatusPrint("Gathering data from data file \"" + filePath + "\"...", 0)
 
+    xData = []
+    yData = []
     wordBuff = [""]
     numInserted = 0
     numDataLines = 0
     searchingHASP = False
+    dataRatio = False
     lastTimeHASP = -1
+    dataMult = 1
+    #getcontext().prec = 6
 
     while (True):
     #{
@@ -801,6 +808,12 @@ def Data_LoadDataFromFile(filePath, data):
 
             continue
         #}
+        elif ((line.find("#") != -1) or (line.find("[") != -1)):
+        #{
+            dataRatio = True
+
+            continue
+        #}
 
         idx = 0
 
@@ -812,7 +825,7 @@ def Data_LoadDataFromFile(filePath, data):
             #{
                 continue
             #}
-            elif (searchingHASP == False) and (currChar == ','):
+            elif (searchingHASP == False) and ((currChar == ',') or (currChar == ';')):
             #{
                 wordBuff.append("")
                 idx += 1
@@ -859,7 +872,12 @@ def Data_LoadDataFromFile(filePath, data):
                 #}
                 else:
                 #{
-                    data.append(round(float(currWord), 3))
+                    currNum = float(currWord)
+
+                    if ((i % 2) != 0):
+                        yData.append(10 * (np.log10(currNum)))
+                    else:
+                        xData.append(10000000 / currNum)
 
                     numDataLines += 1
                 #}
@@ -868,6 +886,15 @@ def Data_LoadDataFromFile(filePath, data):
     
         wordBuff = [""]
         numInserted += len(wordBuff)
+    #}
+
+    xData.reverse()
+    yData.reverse()
+
+    for i in range(len(xData)):
+    #{
+        data.append(xData[i])
+        data.append(yData[i])
     #}
 
     file.close()

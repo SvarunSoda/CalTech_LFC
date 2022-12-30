@@ -9,6 +9,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Integrated_Test_1", "Integr
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Flattener_Simulation", "Flattener_Simulation\Flattener_Simulation.pyproj", "{5C4A57E6-458B-4214-AF8C-66808A662299}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpectrumConverter", "SPF2_CSV\SpectrumConverter.pyproj", "{30F14CAB-AA6C-4077-BD76-056060BEEE86}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpectrumAcquire_1", "SpectrumAcquire_1\SpectrumAcquire_1.pyproj", "{50B78E2F-8EC5-4E7B-84A6-27DC88AE44FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,10 @@ Global
 		{650C77F5-59E3-47CE-BF5F-71C1D068506A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4A57E6-458B-4214-AF8C-66808A662299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C4A57E6-458B-4214-AF8C-66808A662299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F14CAB-AA6C-4077-BD76-056060BEEE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F14CAB-AA6C-4077-BD76-056060BEEE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B78E2F-8EC5-4E7B-84A6-27DC88AE44FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B78E2F-8EC5-4E7B-84A6-27DC88AE44FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

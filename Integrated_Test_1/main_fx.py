@@ -113,7 +113,7 @@ def Main_ProgramIntegrated():
         peakFindDataX = []
         peakFindDataY = []
 
-        for voltageIdx in range(21):
+        for voltageIdx in range(18):
         #{
             #STAGE 1:
             #Set XPOW settings

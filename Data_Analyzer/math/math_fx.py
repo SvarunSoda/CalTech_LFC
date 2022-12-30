@@ -293,6 +293,8 @@ def Math_GetClosestNum(base, nums):
 #{
     if (len(nums) == 0):
         raise ValueError("Attempting to get closest number of no numbers!")
+    if (base == None):
+        raise ValueError("Forget to adjust the detection ranges?")
 
     closestIdx = 0
     closestDiff = np.abs(base - nums[0])

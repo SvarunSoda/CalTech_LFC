@@ -132,13 +132,16 @@ def Graphing_GraphDataPoints(xData, yData, xViews, yViews, dataLabels, dataSkips
             continue
         #}
 
-        dataLabels[actualIdx] = Graphing_CheckDataLabel(dataLabels[actualIdx], config[9])
+        #dataLabels[actualIdx] = Graphing_CheckDataLabel(dataLabels[actualIdx], config[9])
     #}
+
+    #for i in range(len(labelsPrintedStr)):
+    #    labelsPrintedStr[i] = Graphing_CheckDataLabel(labelsPrintedStr[i], config[9])
 
     legendSize = config[7]
 
     if (len(dataLabels) > 0):
-        legendSize = (config[7] / len(dataLabels))
+        legendSize = (config[7] / len(labelsPrintedStr))
 
     if (legendSize > config[8]):
         legendSize = config[8]
